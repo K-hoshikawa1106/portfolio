@@ -214,7 +214,16 @@ li {
 }
 @keyframes rotate-xy {
   0%  {transform: scale(2);}
-  100%  {transform: scale(8);}
+  10%  {transform: scale(4);}
+  20%  {transform: scale(2);}
+  30%  {transform: scale(6);}
+  40%  {transform: scale(2);}
+  50%  {transform: scale(8);}
+  60%  {transform: scale(2);}
+  70%  {transform: scale(6);}
+  80%  {transform: scale(2);}
+  90%  {transform: scale(4);}
+  100%  {transform: scale(2);}
 }
 
 .hobby-body {
