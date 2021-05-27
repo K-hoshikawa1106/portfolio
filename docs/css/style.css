@@ -210,7 +210,11 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
-  transform: rotateY(45deg);
+  animation: rotateXY 3s linear infinite;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotateX(0);}
+  100%  {transform: rotateX(360deg);}
 }
 
 .hobby-body {
