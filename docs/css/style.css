@@ -210,7 +210,7 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
-  transform: rotateX(45deg);
+  transform: rotateY(45deg);
 }
 
 .hobby-body {
