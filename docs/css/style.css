@@ -213,8 +213,8 @@ li {
   animation: rotateXY 3s linear infinite;
 }
 @keyframes rotate-anime {
-  0%  {transform: rotateX(0);}
-  100%  {transform: rotateX(360deg);}
+  0%  {transform: scale(2);}
+  100%  {transform: scale(20);}
 }
 
 .hobby-body {
