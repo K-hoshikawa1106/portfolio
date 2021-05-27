@@ -41,7 +41,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #bcffbc;
 }
 
 .inner {
@@ -58,7 +58,7 @@ li {
   text-align: center;
   letter-spacing: .05em;
   color: #333;
-   background-color: #f0f8ff;
+   background-color: #e6e6fa;
 }
 
 .lead {
