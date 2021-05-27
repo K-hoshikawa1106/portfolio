@@ -41,7 +41,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #bcffbc;
+  background-color: #f7f7f7;
 }
 
 .inner {
@@ -175,6 +175,11 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
+  animation: rotate-anime 3s linear infinite;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
 }
 
 .skill-body {
@@ -205,6 +210,8 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
+  transform: rotateX(45deg);
+  transform: rotateY(45deg);
 }
 
 .hobby-body {
