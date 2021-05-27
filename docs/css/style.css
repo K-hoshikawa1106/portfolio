@@ -184,6 +184,36 @@ li {
   margin-bottom: 3px;
 }
 
+/*--- hobby ---*/
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.hobby-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.hobby-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.hobby-body {
+  flex: 1;
+}
+
+.hobby-name {
+  margin-bottom: 3px;
+}
+
 /*--- contact ---*/
 .contact {
   text-align: center;
